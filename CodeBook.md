@@ -1,16 +1,16 @@
-<strong>Study Design</strong>
+<p><strong>Study Design</strong></p>
 
-<strong>Code Book</strong>
-The data for this project come from the accelerometer and gyroscope 3-axial raw signals collected by a 
+<p><strong>Code Book</strong></p>
+<p>The data for this project come from the accelerometer and gyroscope 3-axial raw signals collected by a 
 Samsung Galaxy S smartphone.
 
-All the variables below have been normalised and bounded within [-1,1], so they are "unitless"
+<p>All the variables below have been normalised and bounded within [-1,1], so they are "unitless"
 These variables fall into two groups: those with a time prefix correspond to the time domain and were captured at a 
 constant rate of 50Hz. Those with a frequency prefix are the result of applying a Fast Fourier Transform (FFT) to some
 of the signals.
 
-subject: numbers from 1 to 30, which serves as the ID of each volunteer taking part on these measurements                                                 
-activity: list of activities performed by the volunteers (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+<p>subject: numbers from 1 to 30, which serves as the ID of each volunteer taking part on these measurements                                                 
+<p>activity: list of activities performed by the volunteers (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 timeBodyAccelerationMeanX: Body Acceleration Mean in the X dimension                              
 timeBodyAccelerationMeanY: Body Acceleration Mean in the Y dimension                             
@@ -100,5 +100,5 @@ angleBetweenXAndGravityMean: angle velocity between X and Gravity Mean
 angleBetweenYAndGravityMean: angle velocity between Y and Gravity Mean
 angleBetweenZAndGravityMean: angle velocity between Z and Gravity Mean
 
-<strong>Summary Choices</strong>
-In the final step, the data was grouped by subject and activity. Each variable was summarized as the mean of that variable within each group.
+<p><strong>Summary Choices</strong></p>
+<p>In the final step, the data was grouped by subject and activity. Each variable was summarized as the mean of that variable within each group.</p>
