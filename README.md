@@ -57,4 +57,4 @@ We select only those variables with either "Mean" or "StandardDev" in their name
 
 <p>Finally, we column bind the tree data frames constructed into one called 'observations', and we sort it by 'subject' and 'activity'. This constitutes the resulting set required in step 4.</p>
 
-<p>For step 5, we group by the 'observations' data frame by 'subject' and 'activity', summarizing each group using the mean function. This set is then exported using write.table with the parameter row.names = FALSE.</p>
+<p>For step 5, we group by the 'observations' data frame by 'subject' and 'activity', summarizing each group using the mean function. This set is then exported using write.table with the parameter row.names = FALSE. The file created has been named <strong>observationsBySubjectActivity.txt</strong> and has been uploaded to Coursera</p>
