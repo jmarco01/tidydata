@@ -1,5 +1,6 @@
 <p><strong>Study Design</strong></p>
-<p> 
+<p> In this case, the data has been provided by Johns Hopkins Bloomberg School of Public Health as part of a project 
+in the <strong>Getting and Cleaning Data </strong> course.</P>
 
 <p><strong>Code Book</strong></p>
 <p>The data for this project come from the accelerometer and gyroscope 3-axial raw signals collected by a 
@@ -10,9 +11,8 @@ These variables fall into two groups: those with a time prefix correspond to the
 constant rate of 50Hz. Those with a frequency prefix are the result of applying a Fast Fourier Transform (FFT) to some
 of the signals.
 
-<p>subject: numbers from 1 to 30, which serves as the ID of each volunteer taking part on these measurements                                                 
-<p>activity: list of activities performed by the volunteers (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 <ul>
+<li>subject: numbers from 1 to 30, which serves as the ID of each volunteer taking part on these measurements</li> <li>activity: list of activities performed by the volunteers (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)</li>
 <li>timeBodyAccelerationMeanX: Body Acceleration Mean in the X dimension</li>                              
 <li>timeBodyAccelerationMeanY: Body Acceleration Mean in the Y dimension</li>                             
 <li>timeBodyAccelerationMeanZ: Body Acceleration Mean in the Z dimension</li>
